@@ -1,10 +1,12 @@
+"use client";
 import Link from 'components/shared/link';
+import LayoutMain from 'layouts/layout-main';
+import 'styles/global.css'
 
 const Home = () => (
-  <div>
-    <h1>Pixel Point Next.js Tailwind Starter</h1>
-    <Link to="about">About</Link>
-  </div>
+  <>
+    <LayoutMain />
+  </>
 );
 
 export default Home;

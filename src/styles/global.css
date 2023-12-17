@@ -1,7 +1,23 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 /* TODO: Add global styles: font-size, color, and other if needed */
 @layer base {
   body {
     @apply min-w-[320px] font-sans antialiased;
     -webkit-tap-highlight-color: transparent;
   }
+}
+
+:root {
+  --main-bg-color: #0E0A0F;
+  --text-color: #FAF9FA;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 15px;
 }
